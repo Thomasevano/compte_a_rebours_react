@@ -14,7 +14,7 @@ const Timer = () => {
     setIsActive(false);
   }
 
-  function backgroundColor () {
+  function changeBackgroundColor () {
     if (40 >= seconds) {
       document.getElementById("countdown-app").style.background ="blue";
       if (20 >= seconds) {
@@ -35,7 +35,7 @@ const Timer = () => {
       if (seconds === 0){
         reset();
       }
-      backgroundColor();
+      changeBackgroundColor();
     } else if (!isActive && seconds !== 0) {
       clearInterval(interval);
     }

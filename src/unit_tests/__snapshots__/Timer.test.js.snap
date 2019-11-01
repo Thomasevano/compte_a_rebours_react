@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verify background color change according to the number of seconds displayed 1`] = `
+<div
+  className="time-app"
+  id="countdown-app"
+>
+  <div
+    className="time"
+  >
+    40
+    s
+  </div>
+  <div
+    className="row"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Start
+    </button>
+  </div>
+</div>
+`;
